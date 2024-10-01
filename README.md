@@ -1,27 +1,28 @@
 # tcc-fatec-electron
 
-An Electron application with React and TypeScript
+Aplicação electron referente ao front-end, disponível publicamente. Toda configuração já foi pré feita e as coisas a serem trabalhadas vide electron devem ser feitas pelo `src/renderer` pois este aplicativo é apenas um front.
 
-## Recommended IDE Setup
+As tecnologias utilizadas são:
+  - Electron (Node + Chromium)
+  - Vite + Typescript
+  - React
+  - TailwindCSS + Shadcn/ui
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+## Instalação
 
-## Project Setup
-
-### Install
-
+Extremamente simples, clone o respositório (git clone url, gh clone url, download do zip, etc...) e 
 ```bash
 $ pnpm install
 ```
 
-### Development
-
+## Desenvolvimento
+Para rodar o aplicativo em desenvolvimento use este comando
 ```bash
 $ pnpm dev
 ```
 
-### Build
-
+## Build
+Para 'buildar' o aplicativo para cada plataforma nativa, use este comando
 ```bash
 # For windows
 $ pnpm build:win
